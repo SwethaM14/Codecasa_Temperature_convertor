@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(203, 143, 65);
+    
+}
+.first{
+    background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(red, yellow);
+   /* background-color: rgb(193, 39, 39);*/
+    height: 360px;
+    width: 49%;
+    top:30%;
+    left: 30%;
+    position: absolute;
+    align-items: center;
+    border-radius: 22px 22px 22px 22px;
+    box-shadow: 5px 5px 16px rgb(121, 117, 116);
+  
+   
+}
+
+input{
+    font-size: 30px;
+    height: 50%;
+    width: 65%;
+    margin: 1em;
+    margin-left: 15%;
+    padding: 35px;
+    background-color: rgb(250, 137, 0);
+    border-radius: 12px 12px 12px 12px;
+    box-shadow: inset 3px  3px 10px rgb(172, 171, 171) ,5px 11px 22px rgb(159, 153, 172);
+    outline: none;
+    border-style: none;
+    text-align: center;
+    color: rgb(13, 20, 126);
+    cursor: pointer;
+    filter: blur(1px);
+}
+button{
+    height: 60px;
+    width: 28%;
+    font-size: 20px;
+    color: aliceblue;
+    font-weight: bold;
+    font-style: initial;
+    margin-left: 6em;
+    margin-top: 1em;
+    background-color: rgba(233, 3, 3, 0.622);
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 5px 11px 17px rgb(195, 196, 200);
+    border: none;
+    cursor: pointer;
+    filter: contrast(1px);
+}
+#inner{
+     height: 45px;
+     width: 55%;
+     margin-top: 5%;
+     margin-left: 5em;
+     font-size: xx-large;    
+     text-align: center;
+     padding-left: 19px;
+     padding-top: 20px;
+     border: none;
+     color:rgba(250, 10, 10, 0.856);
+     
+}
